@@ -8,6 +8,7 @@ print(type(gpa))
 # string
 name = 'peter'
 print(type(name))
+
 # boolean # true, false
 
 is_online = True

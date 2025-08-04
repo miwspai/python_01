@@ -25,7 +25,6 @@ high = 100
 number = 66
 guesses = 0
 
-
 while True:
     # 讓玩家猜數字
     guess = int(input(f"請猜一個介於{low}~{high}之間的數字:"))
@@ -39,15 +38,3 @@ while True:
         print(f"恭喜你猜對了!這個數字就是{number}")
         print(f"你總共猜了{guesses}次。")
         break
-
-
-
-
-
-
-
-
-
-
-
-
